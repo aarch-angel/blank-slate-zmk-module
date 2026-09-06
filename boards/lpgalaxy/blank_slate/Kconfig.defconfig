@@ -19,14 +19,10 @@ endif # USB
 # config BT_CTLR
 # 	default BT
 
-config ZMK_BLE_CLEAR_BONDS_ON_START
-	default n
-config ZMK_SETTINGS_RESET_ON_START
-	default n
-
 config ZMK_BLE
 	default y
 
+# TODO: maybe move these over to blank_slate_defconfig?
 config ZMK_PM_SOFT_OFF
 	default n
 config ZMK_SLEEP
